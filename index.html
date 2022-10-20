@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .card {
+            border: 1px solid black !important;
+            width: 270px !important;
+            background-color: #bdb193!important;
+        }
+
+        .container {
+            margin-top: 120px !important;
+            
+        }
+
+        .card-header {
+            height:30px !important; 
+            width: 270px !important;
+            font-size:20px!important;
+            text-align: center !important;
+            background-color: black !important;
+            color: white !important;
+        }
+        
+        .card-img-top {
+            width: 270px !important;
+        }
+        #tempicon1{
+            margin-left:50% !important;
+            font-size: 25px!important;
+        }
+        #tempicon2{
+            margin-left:50% !important;
+            font-size: 25px!important;
+        }
+        #tempicon3{
+            margin-left:50% !important;
+            font-size: 25px!important;
+        }
+       
+        #aftemp{
+            text-align: center!important;
+        }
+        #aftemp2{
+            text-align: center!important;
+        }
+        #aftemp3{
+            text-align: center!important;
+        }
+        p{
+            text-align: center;
+            font-size:18px!important;;
+            font-family: Bahnschrift;
+        }
+        body{
+            background-color: #23404b!important;
+        }
+        #btn5{
+            margin-left:20%!important;
+            margin-bottom:5%!important ;
+        }
+        #btn1{
+            margin-left:20%!important;
+            margin-bottom:5%!important ;
+        }
+        #btn2{
+            margin-left:20%!important;
+            margin-bottom:5%!important ;
+        }
+        #exampleModalLabel{
+            text-align: center!important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Afghanistan
+                    </div>
+                    <img class="card-img-top"
+                        src='data:image/jpeg;base64,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'
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <br>
+                        <p>Captial: Kabul</p><br>
+                        <p>  Region: Asia</p><br>
+                        <p>Country code:AFG</p><br><br>
+
+                        <button type="button" id=btn5 class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                            Click for Weather
+                        </button>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Weather Report</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        
+                                        <p id="dis"></p>
+                                        <i id="tempicon1"class="fa-solid fa-temperature-high"></i><p id="aftemp"style="text-align:center ;"></p>
+                                        <i id="tempicon2"class="fa-solid fa-temperature-three-quarters"></i><p id="aftemp2"style="text-align:center ;"></p>
+                                        <i id="tempicon3"class="fa-solid fa-temperature-empty"></i><p id="aftemp3"style="text-align:center ;"></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Åland Islands
+                    </div>
+                    <img class="card-img-top"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARYAAAC1CAMAAACtbCCJAAAAP1BMVEUAZK3/0wDaDhXaABX/1QAAYq8ncZn5uAT/1wDYABbwkgv/2gAAX7GWnHMAWbUAXbMAV7cWbZydomUAaJ/tgAzfI64yAAAB20lEQVR4nO3byUoDQRRA0WrjEI2z/v+3utVwhNBQTYz3rBvqcXddxRtjgsen/fLd/uH+Cn5+tByeZ8xyRspCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFnoArLcTPCyLsvrjFnWGbcTvL2vyvIxY5Z1xvUEy5HTsizLjFnWGcejzXBqlvNRFioLlYXKQmWhslBZqCxUFioLlYXKQlP+oI8dfsmy3+LwVcbdFj53yrLJ0euM3SZU5Wqbo1cZHPjfKwuVhcpCZaGyUFmoLFQWKguVhcpCZaGyUFmoLFQWKguVhbrLpW7+qXci6lWRykJlobJQWagsVBYqC5WFykJlobJQWahdRWqzldqDpikr5xewNT9DWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC5WFykJlobJQWagsVBYqC/39LF9zD9Md8Ak8BgAAAABJRU5ErkJggg=="
+                        alt="Card image cap">
+                    <div class="card-body">
+                      <br>
+                      <p>Captial: Mariehamn</p><br>
+                      <p>  Region: Europe</p><br>
+                      <p>Country code: ALA</p><br><br>
+                        
+                        <button type="button"id="btn2" class="btn btn-primary"data-toggle="modal" data-target="#exampleModal2">
+                            Click for Weather
+                        </button>
+
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Weather Report</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p id="dis1"></p>
+                                        <i id="tempicon1"class="fa-solid fa-temperature-high"></i><p id="altemp" style="text-align:center ;">1</p>
+                                            <i id="tempicon2" class="fa-solid fa-temperature-three-quarters"></i><p id='altemp2'style="text-align:center ;">2</p>
+                                            <i id="tempicon3"class="fa-solid fa-temperature-empty"></i><p id="altemp3" style="text-align:center ;">3</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Albania
+                    </div>
+                    <img class="card-img-top"
+                        src='data:image/png;base64,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'
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <br>
+                      <p>Captial: Tirana</p><br>
+                      <p>  Region: Europe</p><br>
+                      <p>Country code: ALB</p><br>
+
+                        <button type="button"id=btn1 class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                            Click for Weather
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Weather Report</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p id="dis2"></p>
+                                        <i id="tempicon1" class="fa-solid fa-temperature-high"></i><p id="ai"style="text-align:center ;"></p>
+                                        <i id="tempicon2" class="fa-solid fa-temperature-three-quarters"></i><p id="ai2"style="text-align:center ;"></p>
+                                        <i id="tempicon3"class="fa-solid fa-temperature-empty"></i><p id="ai4"style="text-align:center ;"></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+            </div>
+       <script src="script.js"></script>
+</body>
+</html>
